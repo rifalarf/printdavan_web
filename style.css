@@ -1,0 +1,110 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+/* icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* colors */
+:root {
+    --color1: #7c93c3;
+    --color2: #55679c;
+    --color3: #55679c;
+    --color4: #1e2a5e;
+    --color5: #e1d7b7;
+}
+
+.color1 {
+    color: var(--color1) !important;
+}
+
+.bg1 {
+    background-color: var(--color1) !important;
+}
+
+.color2 {
+    color: var(--color2) !important;
+}
+
+.bg2 {
+    background-color: var(--color2) !important;
+}
+
+.color3 {
+    color: var(--color3) !important;
+}
+
+.bg3 {
+    background-color: var(--color3) !important;
+}
+
+.color4 {
+    color: var(--color4) !important;
+}
+
+.bg4 {
+    background-color: var(--color4) !important;
+}
+
+.color5 {
+    color: var(--color5) !important;
+}
+
+.bg5 {
+    background-color: var(--color5) !important;
+}
+
+/* end color */
+
+* {
+    font-family: "Arimo", serif;
+}
+
+/* nav */
+.bg-nav {
+    background: rgba(30, 42, 94, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+/* end nav */
+
+/* home */
+/* hero */
+.hero {
+    background: #74ebd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #acb6e5,
+        #74ebd5
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #acb6e5,
+        #e1d7b7
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* end hero */
+
+/* feature */
+.bg-feature {
+    background-color: #55679c;
+}
+/* end feature */
+
+/* utlz */
+.plx {
+}
+.text-shadow {
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+/* end parallax */
+
+/* collaboration */
+.brand {
+    max-height: 96px;
+    margin: 10px;
+    padding: 16px;
+}
+
+/* end collaboration */
+
+/* end home */
