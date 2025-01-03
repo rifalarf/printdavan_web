@@ -91,7 +91,32 @@
 /* end feature */
 
 /* utlz */
-.plx {
+
+.text-justify {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.parallax {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='800' preserveAspectRatio='none' viewBox='0 0 1440 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1286%26quot%3b)' fill='none'%3e%3cpath d='M173.74 139.6L300.19 212.6L300.19 358.6L173.74 431.6L47.3 358.6L47.3 212.6zM47.3 796.6L173.74 869.6L173.74 1015.6L47.3 1088.6L-79.14 1015.6L-79.14 869.6zM300.19 -79.4L426.63 -6.4L426.63 139.6L300.19 212.6L173.74 139.6L173.74 -6.4zM300.19 796.6L426.63 869.6L426.63 1015.6L300.19 1088.6L173.74 1015.6L173.74 869.6zM1185.29 577.6L1311.73 650.6L1311.73 796.6L1185.29 869.6L1058.85 796.6L1058.85 650.6zM1311.73 358.6L1438.18 431.6L1438.18 577.6L1311.73 650.6L1185.29 577.6L1185.29 431.6zM1311.73 796.6L1438.18 869.6L1438.18 1015.6L1311.73 1088.6L1185.29 1015.6L1185.29 869.6z' stroke='rgba(33%2c 102%2c 170%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M48.17 -127.87L209.26 -34.87L209.26 151.13L48.17 244.13L-112.92 151.13L-112.92 -34.87zM209.26 709.13L370.34 802.13L370.34 988.13L209.26 1081.13L48.17 988.13L48.17 802.13zM692.51 430.13L853.6 523.13L853.6 709.13L692.51 802.13L531.43 709.13L531.43 523.13zM853.6 709.13L1014.68 802.13L1014.68 988.13L853.6 1081.13L692.51 988.13L692.51 802.13zM1175.77 151.13L1336.85 244.13L1336.85 430.13L1175.77 523.13L1014.68 430.13L1014.68 244.13zM1175.77 709.13L1336.85 802.13L1336.85 988.13L1175.77 1081.13L1014.68 988.13L1014.68 802.13zM1336.85 -127.87L1497.94 -34.87L1497.94 151.13L1336.85 244.13L1175.77 151.13L1175.77 -34.87z' stroke='rgba(0%2c 0%2c 0%2c 0.28)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1286'%3e%3crect width='1440' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.glass {
+    background: rgba(30, 42, 94, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.hoverBtn:hover {
+    filter: grayscale(100%);
+    background-color: gray !important;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .text-shadow {
@@ -126,6 +151,9 @@
     padding: 16px;
 }
 
+.brand:hover {
+}
+
 .bg-card {
     background: #36d1dc; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -152,4 +180,17 @@
 }
 /* end home-services */
 
+/* faq */
+.accordion {
+}
+/* end faq */
 /* end home */
+
+/* page about */
+.banner {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end page about */
